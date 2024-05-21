@@ -123,6 +123,11 @@ law_wicoha = {
 		always = no
 	}
 
+	is_visible = {
+		country_has_primary_culture = cu:dakota
+	}
+
+
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
 		

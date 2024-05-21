@@ -1,12 +1,11 @@
 ﻿BUILDINGS={
 	s:STATE_NORTH_DAKOTA={
-		region_state:USA={
-		}
 		region_state:LKT={
 			create_building={
 				building="building_conscription_center"
 				level=3
 				reserves=0
+				type = unit_type:combat_unit_type_irregular_infantry
 				activate_production_methods={ "pm_no_organization"}
 			}
 		}
@@ -17,6 +16,7 @@
 				building="building_conscription_center"
 				level=3
 				reserves=0
+				type = unit_type:combat_unit_type_sunkawakhan
 				activate_production_methods={ "pm_no_organization"}
 			}
 		}
