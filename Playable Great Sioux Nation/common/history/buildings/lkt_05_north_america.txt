@@ -1,17 +1,4 @@
 ﻿BUILDINGS={
-
-	s:STATE_MINNESOTA={
-		region_state:USA={
-		}
-		region_state:LKT={
-			create_building={
-				building="building_conscription_center"
-				level=1
-				reserves=0
-				activate_production_methods={ "pm_no_organization"}
-			}
-		}
-	}
 	s:STATE_NORTH_DAKOTA={
 		region_state:USA={
 		}

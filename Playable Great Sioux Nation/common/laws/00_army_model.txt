@@ -13,6 +13,10 @@
 		interest_group_ig_armed_forces_pol_str_mult = 0.50
 	}
 	
+	text = {
+		localization_key = custom_loc_okicize
+	}
+
 	possible_political_movements = {
 		law_professional_army
 		law_mass_conscription
