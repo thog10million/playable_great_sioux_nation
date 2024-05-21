@@ -1,0 +1,29 @@
+﻿COUNTRIES = {
+	c:LKT ?= {
+		effect_starting_technology_tier_7_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+		
+		activate_law = law_type:law_chiefdom
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_omniciye
+		activate_law = law_type:law_okicize
+		
+		activate_law = law_type:law_otakuye
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_no_taxation
+		activate_law = law_type:law_wicoha
+		activate_law = law_type:law_akicitapi
+		
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_slavery_banned
+
+	}
+}

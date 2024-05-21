@@ -1,0 +1,33 @@
+﻿counting_coup = {
+    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+	
+	military_type = army
+	ai_usage = advance
+    is_basic_order_type = no
+
+    possible = {
+        error_check = {
+            severity = invalid
+            has_role = general
+        }
+        trigger_if = {
+            limit = {
+                owner ?= {
+                    has_law = law_type:law_okicize
+                }
+            }
+        }
+    }
+
+    modifier = {
+        unit_morale_loss_mult = -0.80
+    }
+
+	entity_animation = "advance"
+	clicksound = "event:/SFX/UI/Military/order_general_front_advance"
+	experience = 0.1 # This much extra experience per week while executing Order
+	
+	ai_weight = {
+		value = 1
+	}
+}

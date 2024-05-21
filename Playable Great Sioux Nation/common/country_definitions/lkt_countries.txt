@@ -1,0 +1,10 @@
+﻿LKT = {
+	color = { 198 114 168 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { dakota }
+	capital = STATE_SOUTH_DAKOTA
+}

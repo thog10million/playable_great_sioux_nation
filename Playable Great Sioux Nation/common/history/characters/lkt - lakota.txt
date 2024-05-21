@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:LKT ?= {
+		create_character = {
+			# Matȟó Wayúhi (Conquering Bear)
+			first_name = "Matȟó"
+			last_name = "Wayúhi"
+			historical = yes
+			ruler = yes
+			ig_leader = yes
+			birth_date = 1800.1.1
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				honorable
+			}
+		}	
+	}
+}
