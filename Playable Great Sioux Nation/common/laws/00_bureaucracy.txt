@@ -22,6 +22,11 @@
 
 	disallowing_laws = {
 	}
+
+	is_visible = {
+		country_has_primary_culture = cu:dakota
+	}
+
 	
 	possible_political_movements = {
 		law_appointed_bureaucrats

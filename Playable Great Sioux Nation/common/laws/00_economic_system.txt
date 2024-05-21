@@ -49,6 +49,11 @@ law_otakuye = {
 		bg_plantations
 		bg_ranching
 	}	
+
+	is_visible = {
+		country_has_primary_culture = cu:dakota
+	}
+
 	
 	# AI should never switch back to traditionalism
 	ai_will_do = {

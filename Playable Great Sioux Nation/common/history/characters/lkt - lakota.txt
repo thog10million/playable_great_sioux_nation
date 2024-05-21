@@ -2,8 +2,8 @@
 	c:LKT ?= {
 		create_character = {
 			# Matȟó Wayúhi (Conquering Bear)
-			first_name = "Matȟó"
-			last_name = "Wayúhi"
+			first_name = "Matho"
+			last_name = "Wayuhi"
 			historical = yes
 			ruler = yes
 			ig_leader = yes
