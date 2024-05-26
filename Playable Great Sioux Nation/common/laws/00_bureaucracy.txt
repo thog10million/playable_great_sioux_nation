@@ -23,6 +23,10 @@
 	disallowing_laws = {
 	}
 
+	can_enact = {
+		country_has_primary_culture = cu:dakota
+	}
+	
 	is_visible = {
 		country_has_primary_culture = cu:dakota
 	}
