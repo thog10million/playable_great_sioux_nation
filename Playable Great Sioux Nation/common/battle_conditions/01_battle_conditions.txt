@@ -1,0 +1,46 @@
+﻿battle_condition_hit_and_run = {
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_pursuit.dds"
+
+
+	trigger = {
+		has_law = law_type:law_okicite
+	}
+	modifier = {
+		unit_morale_damage_mult = 0.15
+		battle_casualties_mult = -0.50
+		unit_defense_mult = 0.25
+	}
+	
+	instant_switch = {
+		NOR = { 
+			has_battle_condition = battle_condition_panicked_retreat
+			has_battle_condition = battle_condition_controlled_retreat
+		}	
+		current_manpower > {
+			value = opposite_battle_side.current_manpower
+			multiply = {
+				if = {
+					limit = {
+						opposite_battle_side = {
+							has_battle_condition = battle_condition_panicked_retreat
+						}
+					}
+					add = 2
+				}
+				else_if = {
+					limit = {
+						opposite_battle_side = {
+							has_battle_condition = battle_condition_controlled_retreat
+						}
+					}
+					add = 4
+				}
+				else = {
+					add = 10
+				}
+			}
+		}
+	}
+	
+	weight = 1
+}
