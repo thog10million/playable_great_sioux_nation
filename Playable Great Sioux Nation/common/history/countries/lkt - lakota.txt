@@ -15,7 +15,7 @@
 		activate_law = law_type:law_otakuye
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_no_taxation
-		activate_law = law_type:law_wicoha
+		activate_law = law_type:law_wicohan
 		activate_law = law_type:law_akicitapi
 		
 		activate_law = law_type:law_right_of_assembly
