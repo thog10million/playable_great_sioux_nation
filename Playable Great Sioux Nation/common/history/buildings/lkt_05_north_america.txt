@@ -4,8 +4,8 @@
 			create_building={
 				building="building_conscription_center"
 				level=3
-				reserves=0
-				type = unit_type:combat_unit_type_irregular_infantry
+				reserves=1
+				type = unit_type:combat_unit_type_sunkawakhan
 				activate_production_methods={ "pm_no_organization"}
 			}
 		}
@@ -15,7 +15,7 @@
 			create_building={
 				building="building_conscription_center"
 				level=3
-				reserves=0
+				reserves=1
 				type = unit_type:combat_unit_type_sunkawakhan
 				activate_production_methods={ "pm_no_organization"}
 			}

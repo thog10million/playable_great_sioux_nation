@@ -1,4 +1,4 @@
-﻿###
+###
 ### Keep "unit tiers" per group in ascending order; the system will determine the default unit type for a country
 ### by the last defined unit type that it can build
 ###
@@ -694,6 +694,7 @@ combat_unit_type_sunkawakhan = {
     formation_modifier = {
         military_formation_mobilization_speed_mult = 0.50
         military_formation_movement_speed_mult = 0.30
+        interest_group_ig_armed_forces_pol_str_mult = 0.02
     }
 	
 	can_build = {

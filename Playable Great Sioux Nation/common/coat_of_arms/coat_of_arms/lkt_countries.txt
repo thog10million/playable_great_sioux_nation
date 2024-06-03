@@ -1,0 +1,12 @@
+
+LKT = { # Lakota Sioux
+	# Medicine wheel as traditionnal symbol
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "lkt.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
